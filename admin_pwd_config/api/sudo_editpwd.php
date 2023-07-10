@@ -1,6 +1,6 @@
 <?php
 
-require_once 'connect_db_pdo.php';
+require_once '../../api/connect_db_pdo.php';
 
 $username_v_edit = $_POST['username_v_edit'];
 $password_v_edit = $_POST['pwd_v_edit'];

@@ -107,7 +107,7 @@
                 if (data == 'pass') {
                     setTimeout(function () {
                         swal({
-                            title: "แก้ไขข้อมูลสำเร็จ",
+                            title: "เพิ่มบัญชีสำเร็จ",
                             type: "success"
                         }, function () {
                             document.getElementById("edit_pwd_form").reset();
@@ -137,7 +137,7 @@
         $.ajax({
             method: "POST",
             cache: false,
-            url: "api/connect_db_pdo.php",
+            url: "../api/connect_db_pdo.php",
             success: function (data) {
                 //connect to database and create table
             }

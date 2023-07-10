@@ -1,10 +1,11 @@
 <?php
 $servername = "localhost";
-$username = "gimleng";
-$password = "configtion";
+$username = "root";
+$password = "";
+$dbname = "pinme";
 
 try {
-  $connect = new PDO("mysql:host=$servername;dbname=pinmap;charset=utf8", $username, $password);
+  $connect = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
   $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   // echo "Connection success ";
 } catch (PDOException $e) {
@@ -54,6 +55,9 @@ $connect->query("CREATE TABLE IF NOT EXISTS `pwd_sudo` (
   `pwd` varchar(255) NOT NULL,
   `permission_lv` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+INSERT INTO `pwd_sudo` (`ID`, `username`, `pwd`, `permission_lv`) VALUES
+(1, 'admin', '', 'SUDO');
 
 ALTER TABLE `pwd_sudo`
   ADD PRIMARY KEY (`ID`);
