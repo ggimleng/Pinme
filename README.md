@@ -13,7 +13,7 @@ This web map application uses a leaflet library to display the map and popups, a
 - PDO driver for mysql
 - MySQL
 
-## Quick Start
+## :green_circle: Quick Start
 **:black_nib: Installation**
 1. Write your database information in lines 2 to 5 of api/connect_db_pdo.php in the api folder.
 2. Enter your line notify token api at line 77 of api/line-notify-api.php.
@@ -25,7 +25,7 @@ This web map application uses a leaflet library to display the map and popups, a
 8. Try creating a user account in http://yourdomain/pwd.php and logging in in http://yourdomain/index.php to see if the user account table is usable.
 9. Try pinning a location on the map, edit the pin, and then remove the pin, if everything goes smoothly, you complete the installation.
 
-## Features
+## :card_file_box: Features
 ### Pin on the map
 ![Pin on the map](https://drive.google.com/uc?id=1zrT26AWy_tHVmBbJqX-3XVLQRAnHDJe7)
 
@@ -47,7 +47,10 @@ This web map application uses a leaflet library to display the map and popups, a
 ### The account with the ADMIN role has full access to the map's pin removal functionality.
 ![Session](https://drive.google.com/uc?id=1Y3zl2oleo116w_3uPQglOVU6t11Raki3)
 
-## OSRM Backend Recommendation
+### Respondsive.
+![Session](https://drive.google.com/uc?id=1I7xQw22N3Y4Dhoyvv-KGufW0PS7pAxDn)
+
+## :spiral_notepad: OSRM Backend Recommendation
 The main page will display a warning about the osrm demo server in the console. You can set up your own server using this tutorial
 - [osrm-backend](https://github.com/Project-OSRM/osrm-backend)
 
