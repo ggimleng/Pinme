@@ -1151,7 +1151,6 @@
 					contentType: false,
 					processData: false,
 					success: function (data) {
-						console.log(data);
 						if (data != 'failed') {
 							setTimeout(function () {
 								swal({
