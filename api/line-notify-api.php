@@ -36,15 +36,6 @@ $url_request_split = explode('/api/', $url_request);
 $url_sub_path = $url_request_split[0];
 $url .= $url_sub_path . '/index.php?id=' . $id_obj;
 
-/* Get file path from SQL
-require_once 'connect_db_pdo.php';
-$id_img = $connect->prepare("SELECT * FROM pindata WHERE coordinate='" . $user_coor . "'");
-$id_img->execute();
-$result__id = $id_img->fetch(PDO::FETCH_ASSOC);
-$file_path = $result__id['img_path'];
-$imageFile = new CURLFILE($file_path);
-*/
-
 if ($rating == '1') {
 	$rating_text = '❤️';
 } elseif ($rating == '2') {
@@ -83,7 +74,7 @@ function sendlinemesg()
 {
 
 	define('LINE_API', "https://notify-api.line.me/api/notify");
-	define('LINE_TOKEN', 'GLMjsI2gMfqD5Gwava1aeiQYpvqtIaJQRUmRnbuC3nL');
+	define('LINE_TOKEN', '');
 
 	function notify_message($message)
 	{
