@@ -26,3 +26,11 @@ This web map application uses a leaflet library to display the map and popups, a
 9. Try pinning a location on the map, edit the pin, and then remove the pin, if everything goes smoothly, you complete the installation.
 
 ## Features
+### Pin on the map
+![Pin on the map](https://drive.google.com/uc?id=1zrT26AWy_tHVmBbJqX-3XVLQRAnHDJe7)
+
+### Sign in / Sign out Session
+![Session](https://drive.google.com/uc?id=1WKVCxaTomMELLSbmRQA21NGjetTqSphP)
+
+### Ensure that nobody takes your pin from the map.
+![Session](https://drive.google.com/uc?id=1GeqTYp1ClpeQmvZ23Av-QqCwfHVm59Y_)
