@@ -35,6 +35,9 @@ This web map application uses a leaflet library to display the map and popups, a
 ### Ensure that nobody takes your pin from the map.
 ![Session](https://drive.google.com/uc?id=1GeqTYp1ClpeQmvZ23Av-QqCwfHVm59Y_)
 
+### Notify in line app when someone share a new pin
+![Session](https://drive.google.com/uc?id=1rKItG-sIXdaP73Ju27Pyxof3WTIiuAgr)
+
 ### Navigator System
 ![Session](https://drive.google.com/uc?id=1_o_x9w4JVSlHKrdyek5leq2gtfKu_kBJ)
 
@@ -44,10 +47,10 @@ This web map application uses a leaflet library to display the map and popups, a
 ### Account Management
 ![Session](https://drive.google.com/uc?id=17AtIQ_03vAWqSRNGHRSf7OUyGHVPpPW4)
 
-### The account with the ADMIN role has full access to the map's pin removal functionality.
+### The account with the ADMIN role has full access to the map's pin removal functionality
 ![Session](https://drive.google.com/uc?id=1Y3zl2oleo116w_3uPQglOVU6t11Raki3)
 
-### Respondsive.
+### Respondsive
 ![Session](https://drive.google.com/uc?id=1I7xQw22N3Y4Dhoyvv-KGufW0PS7pAxDn)
 
 ## :spiral_notepad: OSRM Backend Recommendation
