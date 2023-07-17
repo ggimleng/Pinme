@@ -32,26 +32,26 @@ This web map application uses a leaflet library to display the map and popups, a
 ### Sign in / Sign out Session
 ![Session](https://drive.google.com/uc?id=1WKVCxaTomMELLSbmRQA21NGjetTqSphP)
 
-### Ensure that nobody takes your pin from the map.
-![Session](https://drive.google.com/uc?id=1GeqTYp1ClpeQmvZ23Av-QqCwfHVm59Y_)
+### Ensure that nobody takes your pin from the map
+![ensure that nobody takes your pin](https://drive.google.com/uc?id=1GeqTYp1ClpeQmvZ23Av-QqCwfHVm59Y_)
 
 ### Notify in line app when someone share a new pin
-![Session](https://drive.google.com/uc?id=1rKItG-sIXdaP73Ju27Pyxof3WTIiuAgr)
+![Line notify](https://drive.google.com/uc?id=1rKItG-sIXdaP73Ju27Pyxof3WTIiuAgr)
 
 ### Navigator System
-![Session](https://drive.google.com/uc?id=1_o_x9w4JVSlHKrdyek5leq2gtfKu_kBJ)
+![osrm routing service](https://drive.google.com/uc?id=1_o_x9w4JVSlHKrdyek5leq2gtfKu_kBJ)
 
 ### Filtering pins
-![Session](https://drive.google.com/uc?id=1AlMrhw8xNUFXSO2prbRjuRFzjn4Bm2iI)
+![filter pins](https://drive.google.com/uc?id=1AlMrhw8xNUFXSO2prbRjuRFzjn4Bm2iI)
 
 ### Account Management
-![Session](https://drive.google.com/uc?id=17AtIQ_03vAWqSRNGHRSf7OUyGHVPpPW4)
+![account management](https://drive.google.com/uc?id=17AtIQ_03vAWqSRNGHRSf7OUyGHVPpPW4)
 
 ### The account with the ADMIN role has full access to the map's pin removal functionality
-![Session](https://drive.google.com/uc?id=1Y3zl2oleo116w_3uPQglOVU6t11Raki3)
+![Admin role](https://drive.google.com/uc?id=1Y3zl2oleo116w_3uPQglOVU6t11Raki3)
 
 ### Respondsive
-![Session](https://drive.google.com/uc?id=1I7xQw22N3Y4Dhoyvv-KGufW0PS7pAxDn)
+![Respondsive](https://drive.google.com/uc?id=1I7xQw22N3Y4Dhoyvv-KGufW0PS7pAxDn)
 
 ## :spiral_notepad: OSRM Backend Recommendation
 The main page will display a warning about the osrm demo server in the console. You can set up your own server using this tutorial
@@ -85,5 +85,5 @@ By the way, because the osrm-backend does not support https by itself, we must u
 </IfModule>
 ```
 
-### As a result, OSRM-backend can completely function on https.
-![Session](https://drive.google.com/uc?id=1lh-sFhAmIRgt60_LKfX6Vn2DGnz73umh)
+### As a result, OSRM-backend can completely function on https
+![https](https://drive.google.com/uc?id=1lh-sFhAmIRgt60_LKfX6Vn2DGnz73umh)
